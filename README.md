@@ -5,6 +5,32 @@ Misbehavior detection in Vehicular Ad-Hoc Networks (VANETs) enhances traffic saf
 ## Navigating the project.
 
 ```
+.
+├── README.md
+├── backend             # has backend code
+├── frontend            # has frontend code
+├── package-lock.json
+└── package.json
+```
+
+### FE
+
+```
+.
+├── components.json
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+├── src
+├── tailwind.config.ts
+└── tsconfig.json
+```
+
+### BE:
+
+```
 ├── Dataset             # Has all the datasets
 ├── notebooks           # Jupyter notebooks
 ├── models              # Saved model files
@@ -14,7 +40,7 @@ Misbehavior detection in Vehicular Ad-Hoc Networks (VANETs) enhances traffic saf
 │ ├── models            # Model definitions
 │ ├── schemas           # Data schemas
 │ └── utils             # Utility functions
-├── README.md <br/>
+├── README.md
 └── tests               # Test files
 ```
 
